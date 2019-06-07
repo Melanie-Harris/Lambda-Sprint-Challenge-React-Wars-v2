@@ -1,0 +1,8 @@
+.displayCard {
+    background: gray;
+}
+
+.cardUL {
+    display: flex;
+    flex-wrap: wrap;
+}
