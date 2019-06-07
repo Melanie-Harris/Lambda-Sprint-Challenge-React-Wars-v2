@@ -24,22 +24,28 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [x] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+React is a commonly used, and very efficient, UI library which uses condensed pieces of UI called components to build elaborate applications. React utilizes the virtual DOM to update changes within our code. What makes React very useful is the way it utilizes JavaScript which is a familiar and much used language instead of relying heavily on its own API. This allows for one to gain much more in depth knowledge about the JavaScript programming simultaneously.
 
-- [ ] What does it mean to _think_ in react?
+- [x] What does it mean to _think_ in react?
+Thinking in React means keeping in mind the functionality, for lack of a better term, of React while building an application. There are several steps to the methodology according to React's website. The steps inclue: mocking up the project, breaking the UI into a component hierarchy, building a static version in React, identifying the minimal (but complete) representation of UI state, identify where your state should live, and  inverse data flow. 
+ 
 
-- [ ] Describe state.
+- [x] Describe state.
+State is at the heart of every React component, it is an object that determines how that component renders & behaves. In other words, State is what allows you to create components that are dynamic and interactive.
 
-- [ ] Describe props.
+- [x] Describe props.
+Props which is short for properties, pass custom data to a React component and also
+triggers state changes.
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!)
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!)
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
 - [ ] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
 - [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
