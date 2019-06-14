@@ -2,10 +2,10 @@ import React from 'react';
 import DisplayCard from './DisplayCard'
 import './StarWars.css'
 
-function DisplayCharList(props) {
+function CharacterList(props) {
     console.log(props)
     return (
-        <ul className="cardUL">
+        <ul className="card-list">
             {props.characters.map(char => {
                 return <DisplayCard
                     key={char.created}
@@ -20,4 +20,4 @@ function DisplayCharList(props) {
     )
 }
 
-export default DisplayCharList;  
+export default CharacterList;  

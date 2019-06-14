@@ -2,17 +2,19 @@ import React from 'react';
 import './StarWars.css';
 
 // Import character component
-import Character from './Characters';
+// import Character from './Characters';
 
 const CharacterComp = (props) => {
-    return props.character.map(item => {
     return (
         <div className="character-card">
+            {props.characters.map(item =>
                 <h2>{item.name}</h2>
-                <SW_Characters info={item} />
-            </div>
-        );
-    });
+                
+
+            )};
+        </div>
+
+    );
 };
 
 export default CharacterComp;

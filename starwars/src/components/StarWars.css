@@ -2,7 +2,7 @@
     background: gray;
 }
 
-.cardUL {
+.card-list {
     display: flex;
     flex-wrap: wrap;
 }
