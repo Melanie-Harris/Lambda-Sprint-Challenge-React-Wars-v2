@@ -5,8 +5,20 @@
 .card-list {
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
 }
 
 .title {
-    color: #443e3e;
+    color: rgb(39, 41, 41);
+    text-shadow: 3px 3px 5px rgb(223, 246, 246)
+}
+
+.card {
+    /* background: gray; */
+    background: rgba(76, 175, 80, 0.15)
+}
+
+.names {
+    color: white;
+    text-shadow: 3px 3px 5px rgb(123, 131, 131)
 }
